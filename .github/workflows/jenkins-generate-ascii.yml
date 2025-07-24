@@ -10,7 +10,7 @@ jobs:
       steps:
       - run: |-
           # Build a message by invoking ADVICESLIP API
-          curl -s https://api.adviceslip.com/advice > advice.json
+          curl -s https://api.adviceslip.com/advice > advice.json             #
           cat advice.json
           
           
